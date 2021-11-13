@@ -1,5 +1,12 @@
+import Home from '../components/pages/Home'
+import '../styles/App.css'
+import Layout from './Layout'
 function App() {
-  return <div>hello react</div>
+  return (
+    <Layout>
+      <Home />
+    </Layout>
+  )
 }
 
 export default App
